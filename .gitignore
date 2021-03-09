@@ -1,0 +1,8 @@
+encoder/saved_models/*
+synthesizer/saved_models/*
+vocoder/saved_models/*
+*__pycache__*
+samples/
+*.txt
+log_dir/
+log_wavs/
