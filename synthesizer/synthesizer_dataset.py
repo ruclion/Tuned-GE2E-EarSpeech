@@ -13,7 +13,7 @@ class SynthesizerDataset(Dataset):
             metadata = [line.strip().split("|") for line in metadata_file]
         
         mel_fpaths = [x[0] for x in metadata]
-        embed_fpaths = [x[1] for x in metadata]
+        embed_fpaths = [x[1].replace('.npy', '-GE2E.npy') for x in metadata]
         self.samples_fpaths = list(zip(mel_fpaths, embed_fpaths))
         self.samples_texts = [x[4] for x in metadata]
         self.metadata = metadata
