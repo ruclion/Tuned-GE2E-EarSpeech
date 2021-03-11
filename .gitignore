@@ -7,3 +7,5 @@ samples/
 log_dir/
 log_wavs/
 log_FaPig_GE2E_syn_wavs/
+log_FaPig_GE2E_syn_wavs_Cross/
+samples_Cross/
