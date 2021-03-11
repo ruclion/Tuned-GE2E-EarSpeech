@@ -1,4 +1,4 @@
-encoder/saved_models/*
+encoder/saved_models/
 synthesizer/saved_models/*
 vocoder/saved_models/*
 *__pycache__*
@@ -6,3 +6,4 @@ samples/
 *.txt
 log_dir/
 log_wavs/
+log_FaPig_GE2E_syn_wavs/
